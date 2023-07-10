@@ -1,7 +1,7 @@
 # Burger Queen
 ![Burger queen](https://github.com/Dev-Mao/DEV005-burger-queen-api-client/blob/Mao/assets_readme/VistasBQ.png?raw=true)
 
-Para ingresar a la aplicación web, utilizarla y verificar su funcionalidad, ingresa a este link: [pendiente](pendiente), con los siguientes datos: 
+Para ingresar a la aplicación web, utilizarla y verificar su funcionalidad, ingresa a este link: [Burger Queen](https://dev-005-burger-queen-api-client-dev-mao.vercel.app/), con los siguientes datos: 
 
 |Administrador            |Mesero                   |Chef                   |
 |-------------------------|-------------------------|-----------------------|
@@ -117,7 +117,7 @@ Estas son las historias de usuario solicitadas con las que cumplimos en este pro
 * Se recibió code review de compañeras.
 * Se realizó test unitarios.
 * Hicimos tests de usabilidad e incorporaste el feedback del usuario.
-* Desplegamos la aplicación (PENDIENTE) y hemos etiquetado tu versión (git tag).
+* Desplegamos la aplicación [click aquí](https://dev-005-burger-queen-api-client-dev-mao.vercel.app/) y hemos etiquetado tu versión (git tag).
 
 ## 3. Prototipo de Alta Fidelidad
 
