@@ -53,7 +53,7 @@ const ProductContainer = (props) => {
     // Obtenemos el token 
     const token = localStorage.getItem('token');
 
-    fetch('http://localhost:8080/products', {
+    fetch('https://api-mock-bq-99b0fe710281.herokuapp.com/products', {
       headers: {
         'Authorization': `Bearer ${token}`,
       },

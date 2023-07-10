@@ -25,7 +25,7 @@ const FormNewProduct = (props) => {
         }
         //Solicitud a la api para crear producto
 
-        fetch('http://localhost:8080/products',{
+        fetch('https://api-mock-bq-99b0fe710281.herokuapp.com/products',{
             method: 'POST',
             headers: {
             'Content-Type': 'application/json',

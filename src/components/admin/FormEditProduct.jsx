@@ -7,7 +7,6 @@ import { IoFastFoodOutline } from 'react-icons/io5';
 import PropTypes from 'prop-types';
 
 const FormEditProduct = (props) => {
-    console.log(props.selectedProductEdit)
     // // Llamado a funciones para formularios
     const { register,  formState: { errors }, handleSubmit } = useForm()
 
@@ -19,7 +18,7 @@ const FormEditProduct = (props) => {
         
         //Solicitud a la api para editar producto por id
 
-        fetch(`http://localhost:8080/products/${props.selectedProductEdit.id}`,{
+        fetch(`https://api-mock-bq-99b0fe710281.herokuapp.com/products/${props.selectedProductEdit.id}`,{
             method: 'PATCH',
             headers: {
             'Content-Type': 'application/json',

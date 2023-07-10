@@ -14,7 +14,7 @@ const ListEmployees = (props) => {
         // Llamar al token almacenado
         const token = localStorage.getItem('token');
         // Solicitud a la API para traer los usuarios
-        fetch('http://localhost:8080/users', {
+        fetch('https://api-mock-bq-99b0fe710281.herokuapp.com/users', {
             headers: {
             'Authorization': `Bearer ${token}`,
             },
@@ -70,6 +70,6 @@ export default ListEmployees;
 
 ListEmployees.propTypes = {
     role: PropTypes.string,
-    setShowFormEditUser: PropTypes.string,
-    setSelectedUser: PropTypes.string,
+    setShowFormEditUser: PropTypes.func,
+    setSelectedUser: PropTypes.func,
 };

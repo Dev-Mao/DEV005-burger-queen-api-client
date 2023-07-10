@@ -15,7 +15,7 @@ const Status = (props) => {
   const token = localStorage.getItem('token');
 
     // Solicitud a la API para traer las órdenes
-    fetch('http://localhost:8080/orders', {
+    fetch('https://api-mock-bq-99b0fe710281.herokuapp.com/orders', {
       headers: {
         'Authorization': `Bearer ${token}`,
       },

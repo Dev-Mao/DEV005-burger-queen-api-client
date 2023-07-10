@@ -48,7 +48,7 @@ const Order = (props) => {
     };
 
     // Solicitud a la API
-    fetch('http://localhost:8080/orders',{
+    fetch('https://api-mock-bq-99b0fe710281.herokuapp.com/orders',{
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

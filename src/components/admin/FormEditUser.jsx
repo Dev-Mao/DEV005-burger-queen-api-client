@@ -17,7 +17,7 @@ const FormEditUser = (props) => {
         
         //Solicitud a la api para editar usuario por id
 
-        fetch(`http://localhost:8080/users/${props.selectedUser.id}`,{
+        fetch(`https://api-mock-bq-99b0fe710281.herokuapp.com/users/${props.selectedUser.id}`,{
             method: 'PATCH',
             headers: {
             'Content-Type': 'application/json',

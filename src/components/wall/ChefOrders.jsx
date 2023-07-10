@@ -23,7 +23,7 @@ const ChefOrders = (props) => {
 
   // Solicitud a la Api para obtener la órdenes
   useEffect(() => {           
-    fetch('http://localhost:8080/orders', {
+    fetch('https://api-mock-bq-99b0fe710281.herokuapp.com/orders', {
       headers: {
         'Authorization': `Bearer ${token}`,
       },
