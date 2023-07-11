@@ -12,7 +12,7 @@ const LoginForm = () => {
 
     // Manejar el envío del formulario y hacer la solicitud de la api para iniciar sesión
     const onSubmit = (data) => {
-        fetch('https://api-mock-bq-99b0fe710281.herokuapp.com/login',{
+        fetch('http://localhost:8080/login',{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

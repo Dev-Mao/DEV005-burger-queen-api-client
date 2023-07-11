@@ -12,7 +12,7 @@ const ListProducts = (props) => {
         const token = localStorage.getItem('token');
     
         // Solicitud a la API para traer los productos
-        fetch('https://api-mock-bq-99b0fe710281.herokuapp.com/products', {
+        fetch('http://localhost:8080/products', {
             headers: {
             'Authorization': `Bearer ${token}`,
             },

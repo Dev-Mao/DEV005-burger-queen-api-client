@@ -18,7 +18,7 @@ const FormNewUser = (props) => {
         
         //Solicitud a la api para crear usuario
 
-        fetch('https://api-mock-bq-99b0fe710281.herokuapp.com/users',{
+        fetch('http://localhost:8080/users',{
             method: 'POST',
             headers: {
             'Content-Type': 'application/json',
@@ -38,14 +38,12 @@ const FormNewUser = (props) => {
         })
         .catch((err) => {
         console.log(err)
-        })
-      
+        })      
     }
     // Cerrar el formulario
     const handleClickClose = () => {
         props.setShowFormUser(false)         
     }
-
     
     return (
         <>

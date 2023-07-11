@@ -13,7 +13,7 @@ const ModalConfirm = (props) => {
     const onDelete = () => {
 
         // Solicitud a la API para eliminar el item seleccionado
-        fetch(`https://api-mock-bq-99b0fe710281.herokuapp.com/${props.type}/${props.selectedItem.id}`,{
+        fetch(`http://localhost:8080/${props.type}/${props.selectedItem.id}`,{
             method: 'DELETE',
             headers: {
             // Se envía token de autorización

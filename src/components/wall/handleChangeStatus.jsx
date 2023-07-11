@@ -14,7 +14,7 @@ const handleChangeStatus = (order, status, token) => {
   }
 
   // Solicitud a la API para modificar la información de la orden
-  fetch(`https://api-mock-bq-99b0fe710281.herokuapp.com/orders/${order.id}`,{
+  fetch(`http://localhost:8080/orders/${order.id}`,{
     method: 'PATCH',
     headers: {
       'Content-Type': 'application/json',

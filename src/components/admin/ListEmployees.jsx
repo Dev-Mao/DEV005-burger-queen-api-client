@@ -14,7 +14,7 @@ const ListEmployees = (props) => {
         // Llamar al token almacenado
         const token = localStorage.getItem('token');
         // Solicitud a la API para traer los usuarios
-        fetch('https://api-mock-bq-99b0fe710281.herokuapp.com/users', {
+        fetch('http://localhost:8080/users', {
             headers: {
             'Authorization': `Bearer ${token}`,
             },

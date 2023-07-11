@@ -12,14 +12,12 @@ import ListProducts from "./ListProducts";
 const AdminView = (props) => {
 
     // Al dar click en close se muestra vista de Wall nos redirige con navigate
-    const navigate = useNavigate()
-    
+    const navigate = useNavigate()    
      
      const handleClick = () =>{
         props.setShowAdminView(false)
         navigate('/')
     }
-
    
     return (
         <>

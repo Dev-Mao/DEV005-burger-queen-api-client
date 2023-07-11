@@ -18,7 +18,7 @@ const FormEditProduct = (props) => {
         
         //Solicitud a la api para editar producto por id
 
-        fetch(`https://api-mock-bq-99b0fe710281.herokuapp.com/products/${props.selectedProductEdit.id}`,{
+        fetch(`http://localhost:8080/${props.selectedProductEdit.id}`,{
             method: 'PATCH',
             headers: {
             'Content-Type': 'application/json',
@@ -32,14 +32,12 @@ const FormEditProduct = (props) => {
         })
         .catch((err) => {
         console.log(err)
-        })
-      
+        })      
     }
     // Cerrar el formulario
     const handleClickClose = () => {
         props.setShowFormEditProduct(false)         
     }
-
     
     return (
         <>

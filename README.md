@@ -8,6 +8,8 @@ Para ingresar a la aplicación web, utilizarla y verificar su funcionalidad, ing
 |Correo: admin@gmail.com  |Correo: waiter@gmail.com |Correo: chef@gmail.com |
 |Contraseña: 123456       |Contraseña: 123456       |Contraseña: 123456     |
 
+Para poder usarla, debes tener localmente esta [API](https://github.com/Dev-Mao/api-mock-bq)
+
 Ya que se creó el proyecto pensado para visualizarse en dispositivos tablet, te recomendamos unas medidas aproximadas de 834x1194. Se debe visualizar correctamente en horizontal y vertical.
 
 ## Índice
