@@ -121,7 +121,7 @@ Estas son las historias de usuario solicitadas con las que cumplimos en este pro
 * Se recibió code review de compañeras.
 * Se realizó test unitarios.
 * Hicimos tests de usabilidad e incorporaste el feedback del usuario.
-* Desplegamos la aplicación [click aquí](https://dev-005-burger-queen-api-client-dev-mao.vercel.app/) y hemos etiquetado tu versión (git tag).
+* Desplegamos la aplicación [click aquí](https://dev-005-burger-queen-api-client-dev-mao.vercel.app/) y hemos etiquetado la versión (git tag).
 
 ## 3. Prototipo de Alta Fidelidad
 
